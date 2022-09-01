@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url(font/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(font/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(font/Montserrat-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+body{
+    background-color: #131415;
+}
+.populares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.populares h6 {
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    width: 88%;
+}
+
+.populares .cartas {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.populares .cartas .card {
+    width: 350px;
+    height: 250px;
+    padding-top: 1rem;
+    padding-left: 22px;
+    padding-right: 22px;
+    background: #252525;
+    border-radius: 15px;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    overflow: hidden;
+    text-align: justify;
+    transition: all 0.25s;
+}
+
+.populares .cartas .card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 11px rgba(0, 0, 0, 0.2);
+}
+
+.populares .cartas .card img {
+    width: 95%;
+    padding-left: 10px;
+    justify-content: center;
+    height: 50%;
+}
+.populares .cartas .card h6{
+    font-weight: 300;
+    font-size: small;
+    color: white;
+    padding: 0 1rem;
+    margin-top: 10px;
+}
+
+.populares .cartas .card p {
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: smaller;
+    padding: 0 1rem;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
+.populares .cartas .card .precio{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.populares .cartas .card .precio h6{
+    width: 6ch;
+    font-family: Montserrat-Bold;
+    font-weight: 900;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(255,161,0,1) 0%, rgba(251,16,61,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.populares .cartas .card .precio button {
+    border: none;
+    border-radius: 20px; 
+    padding: 10px 26px;
+    color: white;
+    background: linear-gradient(90deg, rgba(255,161,0,1) 0%, rgba(251,16,61,1) 100%);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer .footerlist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.footer .footerlist a {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
