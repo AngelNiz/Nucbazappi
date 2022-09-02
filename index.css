@@ -116,7 +116,7 @@ body{
     cursor: pointer;
 }
 
-.footer .footerlist {
+.footerlist {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -125,7 +125,7 @@ body{
     list-style: none;
 }
 
-.footer .footerlist a {
+.footerlist a {
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 18px;
