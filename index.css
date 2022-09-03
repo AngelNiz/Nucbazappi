@@ -18,21 +18,26 @@
 }
 body{
     background-color: #131415;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 16px;
 }
 .populares {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
     flex-direction: column;
 }
 
 .populares h6 {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25em;
     color: white;
-    width: 88%;
+    width: 80%;
 }
 
 .populares .cartas {
@@ -40,17 +45,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 2.5em;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 1.875em;
 }
 
 .populares .cartas .card {
-    width: 350px;
-    height: 250px;
+    width: 21.875em;
+    height: 15.625em;
     padding-top: 1rem;
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 1.375em;
+    padding-right: 1.375em;
     background: #252525;
     border-radius: 15px;
     box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
@@ -66,7 +71,7 @@ body{
 
 .populares .cartas .card img {
     width: 95%;
-    padding-left: 10px;
+    padding-left: 0.625rem;
     justify-content: center;
     height: 50%;
 }
@@ -99,7 +104,7 @@ body{
     width: 6ch;
     font-family: Montserrat-Bold;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 1.25em;
     background: linear-gradient(90deg, rgba(255,161,0,1) 0%, rgba(251,16,61,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -108,11 +113,11 @@ body{
 .populares .cartas .card .precio button {
     border: none;
     border-radius: 20px; 
-    padding: 10px 26px;
+    padding: 0.625em 1.625em;
     color: white;
     background: linear-gradient(90deg, rgba(255,161,0,1) 0%, rgba(251,16,61,1) 100%);
     font-weight: 700;
-    font-size: 15px;
+    font-size: 0.9375rem;
     cursor: pointer;
 }
 
@@ -121,23 +126,75 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
     list-style: none;
 }
 
 .footerlist a {
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: white;
     text-decoration: none;
 }
 
 footer {
     margin-top: 10px;
-    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
 }
+
+.test {
+    display: flex;
+}
+
+    /* Extra large devices */
+ @media (max-width: 1200px) and (min-width: 801px) {
+    body {
+        font-size: 14px;
+    }
+ }
+
+ /* Large devices */
+ @media (max-width: 800px) and (min-width: 626px) {  
+    .populares h6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-weight: 500;
+        font-size: 20px;
+        color: white;
+        width: 70%;
+    }
+ }
+
+ /* Medium devices */
+ @media (max-width: 625px) and (min-width: 420px){
+    .populares h6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-weight: 500;
+        font-size: 15px;
+        color: white;
+        width: 70%;
+    }
+ }
+
+ /* Small devices */
+ @media (max-width: 419px) and (min-width: 300px){
+    .populares h6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-weight: 500;
+        font-size: 10px;
+        color: white;
+        width: 70%;
+    }
+ }
