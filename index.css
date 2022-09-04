@@ -37,11 +37,11 @@ body{
     font-weight: 500;
     font-size: 1.25em;
     color: white;
-    width: 80%;
+    width: 60%;
 }
 
 .populares .cartas {
-    width: 95%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,16 +185,27 @@ footer {
     }
  }
 
- /* Small devices */
- @media (max-width: 419px) and (min-width: 300px){
+  /* Small devices */
+  @media (max-width: 419px) and (min-width: 300px){
     .populares h6 {
         display: flex;
         justify-content: center;
         align-items: center;
-
+        width: 100%;
         font-weight: 500;
         font-size: 20px;
         color: white;
-        width: 70%;
+        
+    }
+    .populares .cartas .card h6{
+        padding: 0;
+        margin-top: 10px;
+    }
+    .populares .cartas .card .precio{
+        width: 100%;
+    }
+    .footerlist {
+        padding: 1em;
     }
  }
+
