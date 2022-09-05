@@ -207,5 +207,11 @@ footer {
     .footerlist {
         padding: 1em;
     }
+    section {
+        padding: 1em;
+    }
+    footer {
+        padding: 1em;
+    }
  }
 
