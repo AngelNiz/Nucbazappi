@@ -103,14 +103,18 @@ body{
 .populares .cartas .card .precio2 h6{
     width: 6ch;
     font-family: Montserrat-Bold;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 1.25em;
     background: linear-gradient(90deg, rgba(255,161,0,1) 0%, rgba(251,16,61,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+<<<<<<< HEAD
 .populares .cartas .card .precio2 .boton {
+=======
+.populares .cartas .card .precio button {
+>>>>>>> 4d530f6830d50100b7d2c086389be29ee8a0f9ed
     border: none;
     border-radius: 20px; 
     padding: 0.625em 1.625em;
