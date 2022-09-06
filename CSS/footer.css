@@ -212,5 +212,11 @@ footer {
     footer {
         padding: 1em;
     }
+    .hero__p {
+        text-align: justify;
+      }
+    hero {
+        padding: 5em;
+    }
  }
 
