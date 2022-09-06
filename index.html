@@ -1,214 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Normalize/normalize.css" />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="style.css">
     <link href="http://fonts.cdnfonts.com/css/montserrat" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css" />
     <title>NucbaZappi</title>
-</head>
-<body>
-    <navbar class="navbar">
+  </head>
+  <body>
+    <nav class="navbar">
+      <img
+        class="navbar__logo"
+        src="./SVG-Header-Hero-E5/nucbazappiicon 1.svg"
+        alt=""
+      />
+      <div class="navbar__navigator">
+        <div class="navbar__home">
+          <img src="./SVG-Header-Hero-E5/Home.svg" alt="" />
+          <p>Home</p>
+        </div>
         <img
-          class="navbar__logo"
-          src="./SVG-Header-Hero-E5/nucbazappiicon 1.svg"
+          src="./SVG-Header-Hero-E5/Icon Cart.svg"
           alt=""
+          class="navbar__cart"
         />
-        <div class="navbar__navigator">
-          <div class="navbar__home">
-            <img src="./SVG-Header-Hero-E5/Home.svg" alt="" />
-            <p>Home</p>
-          </div>
-          <img
-            src="./SVG-Header-Hero-E5/Icon Cart.svg"
-            alt=""
-            class="navbar__cart"
-          />
-          <img
-            src="./SVG-Header-Hero-E5/Icon Profile.svg"
-            alt=""
-            class="navbar__profile"
-          />
-        </div>
-      </navbar>
-      <hero class="hero">
-        <div class="hero__hero-text">
-          <h2 class="hero__title">Si tenes Zappi,</h2>
-          <h3 class="hero__subtitle">tenes Nucba.</h3>
-          <p class="hero__p">Busca lo que quieras nucba te quedes sin comida.</p>
-          <a class="hero__btn" href="">VER MÁS</a>
-        </div>
-        <div class="hero__pizzas">
-          <img
-            class="hero__pizza1"
-            src="./SVG-Header-Hero-E5/pizza 1.svg"
-            alt="rodaja de pizza con pepperoni"
-          />
-          <img
-            class="hero__pizza2"
-            src="./SVG-Header-Hero-E5/image 34.svg"
-            alt="rodaja de pizza con pepperoni y champinion y borde relleno de queso"
-          />
-        </div>
-      </hero>
-      <section class="container">
-        <h3 class="title-hoy">Hoy te recomendamos</h3>
-        <div class="recomendacion">
-          <div class="caja">
-  
-            <img src="Hoy te recomendamos/Photo Menu.png" alt="">
-  
-            <div class="texto">
-              <p class="name">Bennazianna</p>
-              <p class="descripcion">La más completa</p>
-              <p class="precio">$ 3650</p>
-            </div>
-  
-            <button class="boton1">Agregar</button>
-            
-          </div>
-  
-          <div class="caja">
-            <img src="Hoy te recomendamos/Photo Menu-1.png" alt="">
-            <div class="texto">
-            <p class="name">Tronco-Pizza</p>
-            <p class="descripcion">Para todo el día</p>
-            <p class="precio">$ 870</p>
-            </div>
-            <button class="boton1">Agregar</button>
-            
-          </div>
-  
-          <div class="caja">
-            <img src="Hoy te recomendamos/Photo Menu-2.png" alt="">
-            <div class="texto">
-            <p class="name">Papa | Provenzal</p>
-            <p class="descripcion">Van cómo piña</p>
-            <p class="precio">$ 360</p>
-            </div>
-            <button class="boton1">Agregar</button>
-          </div>
-  
-        </div>
-      
-      </section>
-      <section class="sectiontwo">
-        <h3 class="tittle-categorias">Categorias</h3>
-        <div class="containertwo">
-  
-          <div class="categoria"><img src="Imagenes-Header-Hero-E5/image 34-1.png" >
-          <p class="text-categoria">Pizzas</p> <div class="line"></div> </div>
-  
-          <div class="categoria"><img src="Imagenes-Header-Hero-E5/burger 1.png" >
-          <p class="text-categoria">Hamburguesas</p> <div class="line"></div> </div>
-  
-          <div class="categoria"><img src="Imagenes-Header-Hero-E5/fries 2.png" >
-          <p class="text-categoria">Napapuki</p> <div class="line"></div> </div>
-  
-          <div class="categoria"><img src="Imagenes-Header-Hero-E5/pizza 2.png" >
-          <p class="text-categoria">Individuales</p> <div class="line"></div> </div>
-  
-          <div class="categoria"><img src="Imagenes-Header-Hero-E5/buritto 1.png" >
-          <p class="text-categoria">Wraps</p> <div class="line"></div> </div>
-  
-          <div class="categoria"><img src="Imagenes-Header-Hero-E5/taco 1.png" >
-          <p class="text-categoria">Mexican Food</p> <div class="line"></div> </div>
-  
-          <div class="categoria"><img src="Imagenes-Header-Hero-E5/float 1.png" >
-          <p class="text-categoria">Batidukis</p> <div class="line"></div></div>
-        </div>
-    </section>
-    <section class="populares">
-        <h6>Los más populares</h6>
-        <div class="cartas">
-            <div class="card">
-                <img src="./Menu/Photo Menu.png" alt="La Mr. Pit">
-                <h6>La Mr. Pit</h6>
-                <p>Solo para expertos</p>
-                    <div class="precio">
-                        <h6>$ 350</h6>
-                        <button class="boton">Agregar</button>
-                    </div>
-            </div>
-            <div class="card">
-                <img src="./Menu/Photo Menu-1.png" alt="Pizza con jamón">
-                <h6>¡Q' Jamone!</h6>
-                <p>c/jamón crudo</p>
-                    <div class="precio">
-                        <h6>$ 350</h6>
-                        <button class="boton">Agregar</button>
-                    </div>
-            </div>
-            <div class="card">
-                <img src="./Menu/Photo Menu-2.png" alt="La Charly García">
-                <h6>La Charly García</h6>
-                <p>¡BASTA!</p>
-                    <div class="precio">
-                        <h6>$ 380</h6>
-                        <button class="boton">Agregar</button>
-                    </div>
-            </div>
-            <div class="card">
-                <img src="./Menu/Photo Menu-3.png" alt="La Maradona">
-                <h6>La Maradona</h6>
-                <p>¡Eterna!</p>
-                    <div class="precio">
-                        <h6>$ 450</h6>
-                        <button class="boton">Agregar</button>
-                    </div>
-            </div>
-            <div class="card">
-                <img src="./Menu/Photo Menu-4.png" alt="Picantovich">
-                <h6>Picantovich</h6>
-                <p>Pica 2 veces</p>
-                    <div class="precio">
-                        <h6>$ 750</h6>
-                        <button class="boton">Agregar</button>
-                    </div>
-            </div>
-            <div class="card">
-                <img src="./Menu/Photo Menu-5.png" alt="La Hasbulla">
-                <h6>La Hasbulla</h6>
-                <p>En honor al 1</p>
-                    <div class="precio">
-                        <h6>$ 990</h6>
-                        <button class="boton">Agregar</button>
-                    </div>
-            </div>
-            <div class="card">
-                <img src="./Menu/Photo Menu-6.png" alt="Leo Messi">
-                <h6>Leo Messi</h6>
-                <p>¡De pié señores!</p>
-                    <div class="precio">
-                        <h6>$ 10</h6>
-                        <button class="boton">Agregar</button>
-                    </div>
-            </div>
-            <div class="card">
-                <img src="./Menu/Photo Menu-7.png" alt="Nick Gi">
-                <h6>Nick Gi</h6>
-                <p>La que desaparece</p>
-                    <div class="precio">
-                        <h6>$ Gratis</h6>
-                        <button class="boton">Agregar</button>
-                    </div>
-            </div>
-        </div>
-    </section>
-    <section class="test">
-        <ul class="footerlist">
-            <li><a href="#">Términos de uso</a></li>
-            <li><a href="#">Trabajá con nosotros</a></li>
-            <li><a href="#">Soporte</a></li>
-        </ul>
-    </section>
-    <footer>Hecho con &#128157; en&emsp;<strong>NUCBAZZAPI</strong></footer>
-</body>
+        <img
+          src="./SVG-Header-Hero-E5/Icon Profile.svg"
+          alt=""
+          class="navbar__profile"
+        />
+      </div>
+    </nav>
+
+    <!-- NAVBAR RESPONSIVE -->
+
+    <nav class="navbar-r">
+      <div class="navbar-r__menu">
+        <label class="navbar-r__label" for="menu">
+          <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+          <svg
+            height="32px"
+            id="Layer_1"
+            style="enable-background: new 0 0 32 32"
+            version="1.1"
+            viewBox="0 0 32 32"
+            width="32px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"
+            />
+          </svg>
+        </label>
+        <input type="checkbox" id="menu" class="navbar-r__input" />
+      </div>
+
+      <img class="navbar-r__home" src="./SVG-Header-Hero-E5/Home.svg" alt="" />
+      <img src="./SVG-Header-Hero-E5/nucbazappiicon 1.svg" alt="" />
+      <img
+        class="navbar-r__profile"
+        src="./SVG-Header-Hero-E5/Icon Profile.svg"
+        alt=""
+      />
+      <img
+        class="navbar-r__cart"
+        src="./SVG-Header-Hero-E5/Icon Cart.svg"
+        alt=""
+      />
+    </nav>
+
+    <!--  -->
+
+    <hero class="hero">
+      <div class="hero__hero-text">
+        <h2 class="hero__title">Si tenes Zappi,</h2>
+        <h3 class="hero__subtitle">tenes Nucba.</h3>
+        <p class="hero__p">Busca lo que quieras nucba te quedes sin comida.</p>
+        <a class="hero__btn" href="">VER MÁS</a>
+      </div>
+      <div class="hero__pizzas">
+        <img
+          class="hero__pizza1"
+          src="./SVG-Header-Hero-E5/pizza 1.svg"
+          alt="rodaja de pizza con pepperoni"
+        />
+        <img
+          class="hero__pizza2"
+          src="./SVG-Header-Hero-E5/image 34.svg"
+          alt="rodaja de pizza con pepperoni y champinion y borde relleno de queso"
+        />
+      </div>
+    </hero>
+  </body>
 </html>
