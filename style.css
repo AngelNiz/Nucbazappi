@@ -2,10 +2,6 @@ body {
   background-color: #131415;
   font-family: "Montserrat", sans-serif;
 }
-
-.container {
-  margin-bottom: 50px;
-}
 .recomendacion {
   display: flex;
   flex-wrap: wrap;
