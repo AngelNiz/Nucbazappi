@@ -25,9 +25,6 @@ body{
     gap: 2rem;
     font-size: 16px;
 }
-section {
-    padding: 1em;
-}
 .populares {
     display: flex;
     justify-content: center;
@@ -97,13 +94,13 @@ section {
     opacity: 0.3;
 }
 
-.populares .cartas .card .precio{
+.populares .cartas .card .precio2{
     width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.populares .cartas .card .precio h6{
+.populares .cartas .card .precio2 h6{
     width: 6ch;
     font-family: Montserrat-Bold;
     font-weight: 700;
@@ -113,7 +110,7 @@ section {
     -webkit-text-fill-color: transparent;
 }
 
-.populares .cartas .card .precio .boton {
+.populares .cartas .card .precio2 .boton {
     border: none;
     border-radius: 20px; 
     padding: 0.625em 1.625em;
