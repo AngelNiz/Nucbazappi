@@ -109,12 +109,7 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-<<<<<<< HEAD
 .populares .cartas .card .precio2 .boton {
-=======
-.populares .cartas .card .precio button {
->>>>>>> 4d530f6830d50100b7d2c086389be29ee8a0f9ed
     border: none;
     border-radius: 20px; 
     padding: 0.625em 1.625em;
