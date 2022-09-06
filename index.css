@@ -1,13 +1,15 @@
 body {
-  font-family: "Montserrat";
+  font-family: "Montserrat", "sans-serif";
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #000000;
+  background-color: #131415;
 }
-
+.navbar-r {
+  display: none;
+}
 .navbar {
   width: 99%;
   height: 151px;
@@ -139,4 +141,57 @@ body {
   position: absolute;
   top: 0px;
   left: 10px;
+}
+
+@media screen and (max-width: 490px) {
+  .navbar,
+  .navbar__logo,
+  .navbar__navigator,
+  .hero__pizzas {
+    display: none;
+  }
+
+  .navbar-r {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .navbar-r__label {
+    font-size: 27px;
+  }
+  #Layer_1 {
+    color: red;
+  }
+  .navbar-r__input {
+    display: none;
+  }
+
+  .navbar-r__menu {
+    height: 32px;
+  }
+
+  .navbar-r__home {
+    height: 32px;
+  }
+
+  .navbar-r__profile {
+    height: 32px;
+  }
+
+  .navbar-r__cart {
+    height: 32px;
+  }
+  /* SECTION TEXT */
+
+  .hero__hero-text {
+    width: 100%;
+    height: 100%;
+    margin: 20px 10px;
+  }
+  .hero__title {
+    width: 100%;
+  }
 }
