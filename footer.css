@@ -106,14 +106,14 @@ section {
 .populares .cartas .card .precio h6{
     width: 6ch;
     font-family: Montserrat-Bold;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1.25em;
     background: linear-gradient(90deg, rgba(255,161,0,1) 0%, rgba(251,16,61,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.populares .cartas .card .precio button {
+.populares .cartas .card .precio .boton {
     border: none;
     border-radius: 20px; 
     padding: 0.625em 1.625em;
